@@ -1,0 +1,18 @@
+{
+  "main": "app.js",
+  "version": "0.0.1",
+  "name": "message",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
